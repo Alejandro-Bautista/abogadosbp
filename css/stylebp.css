@@ -1,0 +1,135 @@
+.container {
+    width: 95% !important;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 700;
+}
+
+
+nav {
+    height: 100px;
+    line-height: 100px;
+
+}
+
+nav {
+    /* position: absolute !important; */
+    /* display: block !important; */
+    /* box-shadow: none !important; */
+    /* background: -webkit-linear-gradient(to right, #ffffff, #ffffff, #b8b8b8, #4e4e4e, #212121, #212121 ); */
+    /* background: linear-gradient(to right, #ffffff, #ffffff, #b8b8b8, #4e4e4e, #212121, #212121 ); */
+}
+
+
+
+.hero {
+    
+
+    height: 100vh;
+    /* padding-top: 70px; */
+    /* padding-right: 4%; */
+    
+
+    /* clip-path: polygon(12% 54%, 34% 16%, 59% 21%, 72% 35%, 81% 36%, 85% 20%, 91% 9%, 100% 1%, 100% 100%, 0 100%); */
+
+
+    /* padding-left: 4%; */
+    /* background: #232526; */
+    /* fallback for old browsers */
+
+    background: -webkit-linear-gradient(to right, #ffffff, #21212100, #212121), url(../img/backgroundprueba.jpg);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #ffffff, #21212100, #212121), url(../img/backgroundprueba.jpg);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-position: 100% 0;
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    z-index: 2;
+    background-image: linear-gradient(to);
+
+
+}
+
+.hero2{
+    height: 80vh;
+}
+
+.clear-fix {
+    float: none;
+    clear: both;
+}
+
+.mt-5 {
+    margin-top: 70px;
+}
+
+mt-2{
+    margin-top: 20px;
+}
+
+.mb-5 {
+    margin-bottom: 50px;
+}
+
+
+
+.home-anuncio {
+    background-attachment: fixed;
+    height: 150px;
+    background-image: url(../img/slider3.jpg);
+    /* clip-path: polygon(56% 13%, 69% 29%, 80% 17%, 92% 28%, 100% 8%, 100% 100%, 0 100%, 0 30%, 18% 19%, 33% 30%); */
+}
+
+.home-avila{
+    height: 250px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url(../img/avilapng2.png);
+    
+}
+
+    .content-second-home {
+        height: 100vh;
+}
+
+input[type="number"]
+{
+    -webkit-appearance: textfield !important;
+    margin: 0;
+    -moz-appearance:textfield !important;
+}
+
+.p-5{
+    padding: 100px;
+}
+
+.pt-1{
+    padding-top: 20px;
+}
+
+.mb-5{
+    margin-bottom: 50px;
+}
+
+.fw6{
+    font-weight: 600 !important;
+}
+
+.fab{
+    font-size: 60px;
+}
+
+.fa-whatsapp{
+    font-size: 30px !important;
+}
+
+.pruebafinal{
+    font-size: 14.5px;
+    font-weight: 500;
+    
+    background: linear-gradient(to right, #212121,#212121,#212121c2, #21212100);
+    padding: 90px;
+    border-radius: 3px;
+}
